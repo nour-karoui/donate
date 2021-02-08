@@ -1,0 +1,64 @@
+.panel{
+   .border-radius;
+  &.panel-md{
+
+    max-width: 400px; 
+    margin: 0 auto;
+
+  }
+}
+
+.panel-body-lg{
+  padding: 20px;
+}
+
+.panel-heading{
+  .border-radius;
+  position: relative;
+  padding: 10px 20px;
+  h4{
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .collapse-toogle{
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid #ddd; 
+    width: 30px;
+    line-height: 30px;
+    height: 30px;
+    color: #ddd - 30;
+    background: @white;
+    top: 15px;
+    .ic-open{
+      display: none;
+    }
+  }
+
+  .collapsed{
+    .collapse-toogle{
+      .ic-close{
+        display: none;
+      }
+      .ic-open{
+        color: #333;
+        display: inline-block;
+      }
+
+    }
+  }
+
+  .with-ic{
+    padding-right: 30px;
+  }
+}
+
+.panel-title{
+  a{
+    &, &:hover, &:focus{
+      text-decoration: none;
+    }
+  }
+}

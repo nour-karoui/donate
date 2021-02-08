@@ -1,0 +1,30 @@
+.box-words{
+  max-width: 262px;
+  margin: 0 auto;
+  .words{
+    border: 2px solid @white; 
+    margin-bottom: 20px; 
+    font-size: 12px; 
+    padding: 20px; 
+    color: @white;
+    position: relative;
+    text-align: left;
+    &:before{
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      border-top: 10px solid  #fff;
+      border-left: 0px solid  transparent;
+      border-right: 10px solid  transparent;
+
+    }
+  }
+  
+  img{
+    width: 100px; 
+    box-shadow: 0 0 0 5px rgba(255,255,255,0.1)
+  }
+
+
+}

@@ -1,0 +1,53 @@
+.map-area{
+  position: relative;
+  .map{
+    height: 500px;
+    position: relative;
+  }
+  
+  .sh-top{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 0;
+    height: 5px;
+    z-index: 10;
+    .gradient(fade(@black, 50%), fade(@black, 0%));
+  }
+  .sh-bottom{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    z-index: 10;
+    .gradient(fade(@black, 0%), fade(@black, 30%));
+  }
+  .map-scroll-space{
+    position: absolute;
+    width: 50px;
+    right: 0;
+    top: 0;
+    height: 100%;
+    z-index: 10;
+  }
+  .map-detail-location{
+    position: absolute;
+    width: 200px;
+    bottom: 30px;
+    left: 30px;
+    background: @white;
+    z-index: 10;
+    padding: 6px 20px;
+  }
+
+  .map-wait-msg{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    left: 0;
+    z-index: 10;
+    
+  }
+}

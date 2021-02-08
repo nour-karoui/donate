@@ -1,0 +1,49 @@
+.modal-content{
+  .box-shadow;
+  .border-radius;
+}
+
+.modal-header  {
+  padding: 30px;
+  .close{
+    border: 1px solid @white;
+    border-radius: 0;
+    width: 32px;
+    height: 32px;
+    right: 0px;
+    position: absolute;
+    outline: none;
+    color: @white;
+    .transition;
+    .opacity(1);
+    top: -40px;
+    &:hover{
+      background: @black;
+      color: @white;
+      border: 1px solid @black;
+    }
+  }
+}
+
+.modal-body{
+  padding:  20px 30px;
+}
+
+.modal-footer{
+  padding: 20px 30px;
+}
+.modal-dialog {
+  margin: 80px auto;
+  @media (min-width: 450px){
+    &.modal-md {
+      width: 400px;
+    }
+  }
+
+}
+
+.modal-footer{
+  &.text-center{
+    text-align: center;
+  }
+}

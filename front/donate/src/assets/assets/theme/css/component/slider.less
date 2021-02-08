@@ -1,0 +1,125 @@
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  .img-wrap{
+    .scale(1);
+  }
+  opacity: 1;
+
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+.carousel-inner{
+  overflow: hidden;
+
+  .img-wrap{
+    position: absolute;
+    width: 100%;
+    .scale(1.15);
+    height: 100%;
+    top:0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .transition(all 5s 0s);
+  }
+}
+
+.carousel-01{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  .carousel-inner, .item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*
+  WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & apply opacity
+*/
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel-fade .carousel-inner > .item.next,
+  .carousel-fade .carousel-inner > .item.active.right {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-inner > .item.prev,
+  .carousel-fade .carousel-inner > .item.active.left {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-inner > .item.next.left,
+  .carousel-fade .carousel-inner > .item.prev.right,
+  .carousel-fade .carousel-inner > .item.active {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+.control-slide{
+  position: absolute;
+  @media (max-width: @tablet) {
+    position: relative;
+    text-align:center;
+  }
+  bottom: 15px;
+  height: 40px;
+  left: 0;
+  a{
+    position: absolute;
+    width: 40px;
+    bottom: 0;
+    line-height: 40px;
+    text-decoration: none;
+    left: 0;
+    display:inline-block;
+    height: 40px;
+    .transition;
+    text-align: center;
+    background: #1a1717;
+    color: #fff;
+    @media (max-width: @tablet) {
+      position: relative;
+
+    }
+    &:hover{
+      background: #242121;
+    }
+    &[data-slide="next"]{
+      left: 40px;
+      @media (max-width: @tablet) {
+        left: 0;
+      }
+    }
+  }
+}

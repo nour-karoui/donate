@@ -1,0 +1,96 @@
+.btn{
+  .border-radius;
+  &:focus{
+    outline: none !important;
+  }
+}
+
+
+.btn1{
+  background: @white;
+  color: @black;
+  font-family: @font-default;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0;
+  &.btn-light{
+    background: transparent;
+    color: @white;
+    border-width: 2px;
+    border-color: @white;
+  }
+  &.btn-dark{
+    background: transparent;
+    color: @black;
+    border-width: 2px;
+    border-color: @black;
+  }
+  &.btn-form{
+    height: 50px;
+    padding-top: 13px;
+  }
+  &.btn-dark-full{
+    background: @black;
+    color: @white;
+    border-width: 2px;
+  }
+  &:focus{
+    outline: none !important;
+  }
+}
+
+
+
+.btn-play{
+  font-size: 30px; 
+  background: fade(@white, 20%); 
+  color: @black; 
+  line-height: 75px; 
+  display: inline-block; 
+  width: 80px; 
+  height: 80px; 
+  .transition;
+  border: 3px solid @black; 
+  border-radius: 50%;
+  i.fa-play{
+    position: relative; 
+    right: -3px;
+  }
+  &:hover, &:focus{
+    color: @black; 
+    background: @white;
+    border: 3px solid #ddd; 
+  }
+}
+
+.btn-map{
+  background: #0F0E0E;
+  padding:  20px 0 25px;
+  a{
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    color: #999; 
+    display: block;
+    text-decoration: none;
+  }
+  .ic-map{
+    display: block; 
+    font-size: 16px;
+  }
+}
+
+a.link-black{
+  color: @black;
+  text-decoration: none;
+}
+
+a.link-white{
+  color: @white;
+  text-decoration: none;
+}
+
+.pager{ 
+  a{
+    color: inherit;
+  }
+}
