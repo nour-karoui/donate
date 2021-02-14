@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: donate-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: donate
+  template:
+    metadata:
+      labels:
+        app: donate
+    spec:
+      containers:
+        - name: donate
+          image: nourkaroui/donate
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: donate-srv
+spec:
+  selector:
+    app: donate
+  ports:
+    - name: donate
+      protocol: TCP
+      port: 80
+      targetPort: 80

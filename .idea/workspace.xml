@@ -1,7 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2939917-1f24-4f7e-8b23-75638fa9aea1" name="Default Changelist" comment="" />
+    <list default="true" id="d2939917-1f24-4f7e-8b23-75638fa9aea1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/auth/src/models/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/auth/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/auth/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/_shared/load-files.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/footer/footer.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/footer/footer.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/footer/footer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/header/header.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/header/header.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/header/header.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/header/header.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/home/home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/home/home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/mini-navbar/mini-navbar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/mini-navbar/mini-navbar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/mini-navbar/mini-navbar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/mini-navbar/mini-navbar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/navbar/navbar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/navbar/navbar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/navbar/navbar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/navbar/navbar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/org-page/org-page.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/org-page/org-page.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/org-page/org-page.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/app/org-page/org-page.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/font-awesome-4.3.0/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/gmap3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/isotope.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/jquery.easing-1.3.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/less.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/magnific-popup/jquery.magnific-popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/magnific-popup/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/magnific-popup/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/metisMenu/metisMenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/metisMenu/metisMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/pace.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/external/scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/body.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/footer.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/header.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/helper.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/nav.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/page-loader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/page.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/sc-blog.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/sc-contact.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/sc-event.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/sc-gallery.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/sc-help.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/sc-map.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/sc-sponsor.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/sc-team.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/sc-words.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/block/typography.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/component/btn.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/component/form.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/component/modal.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/component/panel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/component/slider.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/component/tabs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/inc/css3.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/inc/vars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/css/theme-custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/bg/d1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/bg/d2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/bg/d3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/bg/d4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/bg/d5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/bg/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/bg/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/bg/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/bg/p4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/c1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/kid/kid-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/kid/kid-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/kid/kid-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/kid/kid-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/pat1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/pat2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/people/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/people/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/people/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/people/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/people/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/pinmarker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/sponsor/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/sponsor/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/sponsor/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/sponsor/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/sponsor/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/sponsor/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/team/t-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/team/t-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/team/t-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/team/t-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/team/tblur-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/team/tblur-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/team/tblur-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/team/tblur-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/thumb/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/thumb/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/thumb/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/thumb/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/thumb/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/thumb/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/thumb/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/thumb/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/thumb/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/img/thumb/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/js/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/assets/assets/theme/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/donate/tslint.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +237,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oD5y0Cq5MhE8eOvixqzP6UzcX2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,7 +247,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OST1/Savvy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -33,10 +255,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\User\Desktop\microservices\donate\front\donate\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\User\Desktop\microservices\donate\donate\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\microservices\donate" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\microservices\donate\front\donate\src\assets" />
     </key>
@@ -49,17 +274,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612808572732</updated>
-      <workItem from="1612808574670" duration="7659000" />
+      <workItem from="1612808574670" duration="8087000" />
+      <workItem from="1612969693333" duration="989000" />
+      <workItem from="1612971695280" duration="325000" />
+      <workItem from="1612972065445" duration="1098000" />
+      <workItem from="1612981929954" duration="3804000" />
+      <workItem from="1613045613651" duration="1201000" />
+      <workItem from="1613114604886" duration="619000" />
+      <workItem from="1613203688339" duration="3283000" />
+      <workItem from="1613207045841" duration="804000" />
+      <workItem from="1613207873701" duration="6796000" />
+      <workItem from="1613225858387" duration="17502000" />
+      <workItem from="1613295585563" duration="3443000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1612809458916">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1613230480790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612809458916" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613230480790" />
+    <state x="101" y="145" width="579" height="534" key="find.popup" timestamp="1613231442349">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="101" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1613231442349" />
   </component>
 </project>
