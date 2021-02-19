@@ -18,6 +18,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../OST1/Savvy/savvy/backend/routes/product.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../OST1/Savvy/savvy/backend/services/order.js">
           <value>
             <set />
@@ -28,7 +33,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../OST1/Savvy/savvy/src/app/_shared/services/generic.service.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../OST1/Savvy/savvy/src/app/_shared/services/store.service.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../OST1/Savvy/savvy/src/app/app.module.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../OST1/Savvy/savvy/src/app/dashboard/header/header.component.html">
           <value>
             <set />
           </value>
@@ -123,7 +143,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../OST1/Savvy/savvy/src/app/store-edit/store-edit.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.env">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth/node_modules/@middleware-errors/common/build/index.d.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth/node_modules/@middleware-errors/common/build/index.js">
           <value>
             <set />
           </value>
@@ -138,7 +178,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/auth/src/common/src/errors/database-connection-error.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth/src/common/src/middlewares/error-handler.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth/src/index.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth/src/models/user.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth/src/routes/current-user.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth/src/routes/signin.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth/src/routes/signout.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/auth/src/routes/signup.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth/src/services/password-service.ts">
           <value>
             <set />
           </value>
@@ -163,12 +243,92 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/common/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/build/index.d.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/errors/bad-request-error.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/errors/custom-error.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/errors/not-found-error.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/errors/request-validation-error.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/errors/unauthorized-error.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/index.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/middlewares/current-user.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/middlewares/error-handler.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/middlewares/require-auth.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/src/middlewares/validate-request.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/common/tsconfig.json">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/donate/.dockerignore">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/donate/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/donate/angular.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/donate/dist/donate/index.html">
           <value>
             <set />
           </value>
@@ -204,6 +364,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/donate/src/app/home/home.component.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/donate/src/index.html">
           <value>
             <set />
           </value>
@@ -289,6 +454,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/front/donate/src/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/infra/k8s/auth-depl.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/infra/k8s/auth-mongo-depl.yaml">
           <value>
             <set />
           </value>

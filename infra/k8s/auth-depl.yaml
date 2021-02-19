@@ -15,12 +15,12 @@ spec:
       containers:
         - name: auth
           image: nourkaroui/auth
-          # env:
-#            - name: JWT_KEY
-#              valueFrom:
-#                secretKeyRef:
-#                  name: jwt-secret
-#                  key: JWT_KEY
+          env:
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: jwt-secret-donate
+                  key: jwt
 ---
 apiVersion: v1
 kind: Service

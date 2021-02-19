@@ -1,14 +1,30 @@
 import express from 'express';
 import cors from 'cors';
+import {json} from 'body-parser';
+import 'express-async-errors';
+import {currentUser, errorHandler} from "@middleware-errors/common";
+import  cookieSession  from 'cookie-session'
+import {signupRouter} from "./routes/signup";
+import {signoutRouter} from "./routes/signout";
+import {signinRouter} from "./routes/signin";
+import {currentUserRouter} from "./routes/current-user";
+
 
 const app = express();
 
 app
+    .set('trust proxy', true)
     .use(cors())
-    .get('/api/users/all', (req, res) => {
-        console.log('sucess');
-        res.status(200).send({message: 'success'});
-    })
-    .listen(3000, () => {
-    console.log('listening on port 3000');
-})
+    .use(json())
+    .use(cookieSession({
+        signed: false,
+        secure: true
+    }))
+    .use(currentUser)
+    .use(signupRouter)
+    .use(signoutRouter)
+    .use(signinRouter)
+    .use(currentUserRouter)
+    .use(errorHandler);
+
+export {app}

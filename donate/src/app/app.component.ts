@@ -12,8 +12,9 @@ export class AppComponent implements OnInit{
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    this.http.get('http://donate.com:80/api/users/all')
+    this.http.get('http://donate.com/api/users/current-user')
       .subscribe(message => {
+        console.log('hellloooo');
         console.log(message);
       });
   }
