@@ -20,23 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2939917-1f24-4f7e-8b23-75638fa9aea1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/models/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/routes/current-user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/routes/current-user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/routes/signin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/routes/signin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/routes/signout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/routes/signout.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/routes/signup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/routes/signup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/donate/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/donate/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/donate/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/donate/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/k8s/auth-depl.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/auth-depl.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/k8s/ingress-srv.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/k8s/ingress-srv.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +39,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/common" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oD5y0Cq5MhE8eOvixqzP6UzcX2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -64,7 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OST1/Savvy/savvy" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -113,7 +101,13 @@
       <workItem from="1613585622223" duration="5297000" />
       <workItem from="1613633955246" duration="5783000" />
       <workItem from="1613643439916" duration="10494000" />
-      <workItem from="1613721883056" duration="7792000" />
+      <workItem from="1613721883056" duration="9253000" />
+      <workItem from="1613749949747" duration="776000" />
+      <workItem from="1613770229081" duration="600000" />
+      <workItem from="1613807039601" duration="598000" />
+      <workItem from="1613830067639" duration="781000" />
+      <workItem from="1613832808790" duration="1207000" />
+      <workItem from="1613901313838" duration="11662000" />
     </task>
     <servers />
   </component>
@@ -133,10 +127,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1613643895450">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1613833637556">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613643895450" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613833637556" />
     <state x="101" y="145" width="579" height="534" key="find.popup" timestamp="1613403639025">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
